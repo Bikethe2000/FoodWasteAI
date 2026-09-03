@@ -8,15 +8,6 @@ export default function Landing() {
         {/* HERO SECTION */}
         <section className="pt-16 pb-32" style={{ background: 'linear-gradient(to bottom, rgba(5, 150, 105, 0.05), var(--sf-bg))' }}>
           <div className="max-w-6xl mx-auto px-6 text-center">
-            {/* Hackathon Badge */}
-            <div className="flex justify-center mb-6">
-              <div className="flex items-center gap-3 px-6 py-3 rounded-full shadow-sm" style={{ background: 'rgba(5, 150, 105, 0.1)', color: 'var(--sf-primary)' }}>
-                <Award className="h-6 w-6" style={{ color: 'var(--sf-primary)' }} />
-                <span className="font-semibold">
-                  Built for USAII Global AI Hackathon 2026
-                </span>
-              </div>
-            </div>
 
             {/* Icon */}
             <div className="flex justify-center mb-6">
